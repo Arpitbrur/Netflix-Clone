@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* ====================================== for header ===========================================*/
+header {
+    background-color: white;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.515), rgba(0, 0, 0, 0.615)), url("IN-en-20230313-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.top-nav {
+    /* background-color: yellow; */
+    padding: 15px 25vh;
+    /* position: fixed; */
+    width: 100%;
+
+}
+
+nav {
+    /* background-color: red; */
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    /* background-color: rgba(0, 0, 0, 0.800); */
+    background-image: url("Netflix-logo.png");
+    height: 13vh;
+    width: 13vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lang {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    width: 16vw;
+    align-items: center;
+    gap: 2vh;
+    /* padding: 9vh; */
+}
+
+.lang select {
+    background-color: rgba(0, 0, 0, 0.615);
+    color: white;
+    font-size: 3vh;
+    border: white 0.1vh solid;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 16vh;
+
+}
+
+.lang button {
+    background-color: orangered;
+    color: white;
+    font-size: 2vh;
+    border: black 0.3vh solid;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 12vh;
+
+}
+
+.lang button:hover {
+    background-color: rgb(186, 53, 5);
+}
+
+
+/* ====================================== For heading ===========================================*/
+.hero-heading {
+    /* position:absolute ; */
+    /* background-color: aqua; */
+    /* height: 30vh; */
+    /* width: 80vh; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30vh;
+    flex-direction: column;
+
+}
+
+.hero-heading h2 {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 6vh;
+    color: white;
+    font-weight: 10vh;
+    text-align: center;
+
+}
+
+.heading h2 {
+    /* background-color: red; */
+}
+
+.hero-heading h4 {
+    font-size: 4vh;
+    color: white;
+    text-align: center;
+}
+
+.hero-heading p {
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+    padding: 9vh;
+    height: 10vh;
+    width: 70vw;
+    align-items: center;
+}
+
+.buttons input {
+    background-color: rgba(0, 0, 0, 0.615);
+    color: white;
+    padding: 2vh 5vh;
+    border: 1px white solid;
+    border-radius: 1vh;
+    height: 8vh;
+    width: 50vh;
+    font-size: 2vh;
+}
+
+.buttons button {
+    background-color: red;
+    color: white;
+    border: 1px black solid;
+    border-radius: 1vh;
+    height: 8vh;
+    width: 30vh;
+    font-size: 3vh;
+}
+
+/* ========================================== sec-2 =================================================*/
+
+.sec-2 {
+    background-color: aqua;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh;
+    /* z-index: 6; */
+
+}
+
+.img{
+    background-color: red;
+    background-image: url("tv.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 70vh;
+    padding: 12vh;
+    z-index: 5;
+
+}
+
+.img video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    z-index: -2;
+}
+
+
+.heading-2{
+    background-color: yellow;
+    height: 40vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8vh 8vh;
+
+}
+
+.heading-2 h2{
+    font-size: 7vh;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 10vh;
+    background-color: red;
+}
